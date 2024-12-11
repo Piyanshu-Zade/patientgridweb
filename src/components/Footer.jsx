@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#2A0896] text-white py-6 pt-10">
       <div className="container mx-auto px-6 md:px-12 flex flex-wrap justify-between items-start space-y-6 md:space-y-0">
-        {/* Logo and Description */}
+        {/* Logo */}
         <div className="w-full md:w-1/3 text-justify leading-relaxed">
           <h1 className="text-3xl font-bold mb-4 flex justify-center md:justify-start">
             <img src="/images/logo.png" alt="Logo" className="" />

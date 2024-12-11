@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaCaretDown } from 'react-icons/fa';
+import { IoMenuSharp } from "react-icons/io5";
 
 const Navbar = () => {
 
@@ -57,14 +58,14 @@ const Navbar = () => {
             onClick={toggleMenu}
             className="text-[#2A0896] text-2xl focus:outline-none"
           >
-            ☰
+            <IoMenuSharp />
           </button>
         </div>
       </div>
 
       {menuOpen && (
-        <div className="md:hidden bg-[#D9D9D9] py-4 px-6">
-          <ul className="space-y-4 font-semibold">
+        <div className="md:hidden bg-[#D9D9D9] py-4 px-6 absolute w-full ">
+          <ul className="space-y-4 font-semibold ">
             <li>
               <a href="#" className="block hover:text-[#2A0896]">
                 Products
